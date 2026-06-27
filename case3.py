@@ -2,7 +2,6 @@ def sum_negative_between_min_max(arr):
     if not arr:
         return 0
     
-    # Находим индексы через enumerate
     max_idx = max(range(len(arr)), key=lambda i: arr[i])
     min_idx = min(range(len(arr)), key=lambda i: arr[i])
     
